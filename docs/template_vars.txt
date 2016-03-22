@@ -1,0 +1,53 @@
+Template-Variables:
+
+=============================================================================================================================
+= Available in ALL templates:
+=============================================================================================================================
+
+URL of the script including "index.php"		{$script_url}			http://your.domain/index.php
+
+Name of the server				{$servername}
+Your slogan					{$slogan}
+URL of your forum (if its set)			{$forum_url}
+"true" if you allowed registration		{$allow_registration}
+
+"1" if OpenWebIM is installed in "webim"	{$webim_found}
+"1" if a captcha should be displayed upon reg	{$show_captcha}
+"1" when duplicate mails are allowed		{$allow_dupe_email}
+Name of script itself (index.php)		{$scriptname}
+URL where the script is located			{$base_url}
+
+Number of Accounts				{$stats.accounts}
+Number of Characters				{$stats.chars}
+Number of Guilds 				{$stats.guilds}
+Number of Players Online			{$stats.online}
+Number of Champions				{$stats.jobs.champion}
+Number of Clerics				{$stats.jobs.cleric}
+Number of Crusaders				{$stats.jobs.crusader}
+Number of Explorers				{$stats.jobs.explorer}
+Number of Herbalists				{$stats.jobs.herbalist}
+Number of Hunters				{$stats.jobs.hunter}
+Number of Newbies				{$stats.jobs.newbie}
+Number of Seal Masters				{$stats.jobs.sealmaster}
+Number of Sharpshooters				{$stats.jobs.sharpshooter}
+Number of Swordsmans				{$stats.jobs.swordsman}
+Number of Voyagers				{$stats.jobs.voyager}
+
+Name of logged in user				{$user.name}
+1 = is logged in				{$user.is_logged_in}
+1 = is GM (GM-Level > 0)			{$user.is_gm}
+1 = has GM-Level 99				{$user.is_admin}
+
+Difference between GMT and Server-Time		{$time_offset}
+
+Solo-Exp-Rate					{$rates.exp}
+Party-Exp-Rate					{$rates.pexp}
+Drop-Rate					{$rates.drop}
+Fairy-Growth-Rate				{$rates.fairy}
+Ship-Exp-Rate					{$rates.ship}
+
+Script-Version					{$script.version}
+Release-Date					{$script.release}
+Powered by-String				{$script.powered_by}
+
+Contains the Username on the Privatia-Toplist	{$toplist.privatia}

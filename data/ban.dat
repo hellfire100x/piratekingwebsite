@@ -1,0 +1,10 @@
+// Add all IPs you want to ban from using the website to this file! 
+// IP-ban is only "useful" for Hamachi-based servers as users IP don't change so often.
+//
+// Add 1 IP per line! Since 0.0.3 this file allows ranges/wildcards.
+//
+// Some examples: 
+//
+// 192.168.*.*
+// 192.168.2.[1-100]
+// 123.[1-100].[200-250].24		would ban IPs like 123.1.220.24 but NOT 123.1.220.23 ;-)
